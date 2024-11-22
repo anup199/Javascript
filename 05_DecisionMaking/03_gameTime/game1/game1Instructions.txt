@@ -1,0 +1,47 @@
+Start
+Here's a **Decision Making Game** in JavaScript that allows the player to make a series of choices, each with different outcomes. The game will present a scenario with multiple choices, and based on those choices, the story progresses. The code below is a simple text-based game that runs in the browser using HTML, CSS, and JavaScript.
+
+### Decision Making Game: "The Adventure"
+
+This game will take the player through a short adventure where they need to make decisions about how they proceed. Each decision will influence the outcome.
+
+### HTML + JavaScript Code
+
+```html
+
+
+
+
+
+
+
+
+
+
+End
+
+```
+
+### How the Game Works:
+1. **Start**: The player is initially presented with two options: "Take the forest path" or "Take the mountain path."
+2. **Decisions**:
+   - **Forest Path**: If the player chooses the forest, they encounter a wild animal and must decide whether to fight or run.
+   - **Mountain Path**: If the player chooses the mountains, they find a treasure chest and must decide whether to open it or leave it alone.
+3. **Outcomes**: Based on the player's decisions, they either win (by defeating the animal or finding a treasure) or lose (by getting lost or leaving the chest).
+4. **Game Reset**: After a decision leads to an end, the player can restart the game with a "Play Again" option.
+
+### Key Features:
+- **Dynamic choices**: Based on previous decisions, new choices are presented to the player.
+- **Simple storytelling**: The game progresses with simple branching storylines based on the player’s decisions.
+- **Restarting the game**: After an outcome (win or loss), the player can restart the game from the beginning.
+- **Basic HTML, CSS, and JavaScript**: The game logic is controlled entirely in JavaScript, with HTML and CSS for structure and styling.
+
+### How to Play:
+1. **Open the file**: You can copy the code above into an `.html` file and open it in a web browser.
+2. **Make choices**: Click the buttons to make decisions and see how the story unfolds.
+3. **Endings**: The game has several different endings based on your choices. Try different paths to see all the possible outcomes.
+
+### Further Improvements:
+- You can extend the game by adding more decision points.
+- You could include a scoring system or keep track of how many decisions it takes to reach the "best" ending.
+- Adding images or animations could make the game more visually engaging.

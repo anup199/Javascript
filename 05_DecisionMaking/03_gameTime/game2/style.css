@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 40px;
+    width: 830px;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+.options button{
+    height: 30px;
+    border-radius: 5px;
+    border-color: green;
+}
+.options button:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: 2px solid green;
+}
