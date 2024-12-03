@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1>Object Creations</h1>
+        <script>
+            const person = {
+                name:[],
+                age:23,
+                qualification:"BCA",
+                college_name:"DU"
+            }
+
+            console.log(person);
+            // document.write(person["name"])
+            // document.write(person["age"])
+            // document.write(person["qualification"])
+    
+            for(let detail in person)
+            {
+                console.log(detail," : ",person[detail]);
+                
+            }
+
+        </script>
+
+
+
+
+</body>
+</html>
