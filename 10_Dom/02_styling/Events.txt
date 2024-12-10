@@ -1,0 +1,26 @@
+what is events
+
+An event may have an event handler, a function that runs when the event occurs. An event handler, also known as an event listener, listens for the event and executes when it happens.
+
+1.bubbling concept
+In the event bubbling model, an event starts at the most specific element and then flows upward toward the least specific element (the document or even window).
+
+When you click the button, the click event occurs in the following order:
+
+button
+div with the id container
+body
+html
+document
+
+2.Capturing concept
+
+In the event-capturing model, an event starts at the least specific element and flows downward toward the most specific element.
+
+When you click the button, the click event occurs in the following order:
+
+document
+html
+body
+div with the id container
+button
