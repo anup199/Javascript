@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.search_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#search_value{
+    /* border-radius: 20px; */
+    height: 50px;
+    width: 300px;
+    
+}
+.fa-magnifying-glass{
+    height: 47px;
+    width: 50px;
+    font-size: 40px;
+    color: rebeccapurple;
+}
+#btn{
+    cursor: pointer;
+}
+
+.emotion_show{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+}
