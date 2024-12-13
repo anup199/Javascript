@@ -1,4 +1,0 @@
-let emojis = {
-    smile:"😊",
-    sad:"💔"
-}
