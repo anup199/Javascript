@@ -35,7 +35,7 @@ function emo_name(emojiObject)
         if(key==value)
         {
             emotion.textContent = emojiObject[key];
-            console.log(emojiObject[key]);
+            // console.log(emojiObject[key]);
             
         }
     }
@@ -46,6 +46,31 @@ let btn = document.getElementById('btn');
 btn.addEventListener('click',()=>{
     emo_name(emojiObject)
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 let imo = [
     {

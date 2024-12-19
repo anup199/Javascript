@@ -8,9 +8,10 @@ function add()
 
     let sum = dig1+dig2;
 
-    ans.textContent =sum;
+    ans.innerText =sum;
 
 }
+
 
 let btn  = document.getElementById('add')
 
